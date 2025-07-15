@@ -22,13 +22,9 @@ recived.addEventListener("click", () => {
 });
 
 let ChangeColor = (num) => {
-  if (num > 0) {
-    number.style.color = `green`;
-  } else if (num < 0) {
-    number.style.color = "red";
-  } else {
-    number.style.color = "#000";
-  }
+  if (num > 0) number.style.color = `green`;
+  else if (num < 0) number.style.color = "red";
+  else number.style.color = "#000";
 };
 
 document.addEventListener("contextmenu", (event) => {
@@ -40,6 +36,4 @@ document.addEventListener("contextmenu", (event) => {
   rightClick.style.top = `${event.pageY}px`;
 });
 
-document.addEventListener("click", () => {
-  rightClick.style.display = `none`;
-});
+document.addEventListener("click", () => (rightClick.style.display = `none`));
