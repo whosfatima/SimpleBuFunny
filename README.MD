@@ -17,7 +17,7 @@ A fun little project using HTML, CSS, and Vanilla JS — with a custom right-cli
 
 ## 🔗 Live Demo
 
-[Check it out here](https://your-demo-link.com)
+[Check it out here](https://whosfatima.github.io/SimpleBuFunny/)
 
 ## ✍️ Author
 
